@@ -1,0 +1,140 @@
+/*=========================
+Universal Styling
+===========================*/
+
+body {
+  margin: 0;
+  background: url('../images/pipes.png');
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+}
+
+section, aside {
+  background-color: white;
+  margin: 0 auto;
+  padding: 0 12px;
+  margin: 20px 10px;
+  margin-right: auto;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+/*=========================
+Header Styling
+===========================*/
+
+header {
+  background-color: gray;
+  padding: 24px 40px;
+  border-bottom: 3px solid black;
+ }
+ 
+ nav {
+  display: flex;
+}
+ .logo {
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  margin-right: auto;
+ }
+ 
+ .link1, .link2, .link3 {
+  text-decoration: none;
+  font-size: 14;
+  font-weight: bold;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: white;
+  color: gray;
+  text-transform: uppercase;
+  margin: 0 4px;
+  padding: 10px 20px;
+  border-radius: 4px;
+ }
+
+ .link1:hover, .link2:hover, .link3:hover {
+   color: black;
+   background-color: rgb(211, 208, 208);
+ }
+
+h1 {
+  margin: 8px 0;
+  padding: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  font-size: 25px;
+  border-bottom: double 5px gray;
+ } 
+
+ /*=========================
+Body Styling
+===========================*/
+
+section {
+  flex: 40%;
+  max-height: 60vh;
+}
+
+ .aboutme {
+  text-align: left;
+  padding: 20px;
+ }
+ 
+ .aboutme img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  border-style: outset;
+  box-shadow: 10px 8px 5px gray;
+  padding: auto;
+  clear: both;
+  display: inline;
+ }
+ 
+ p {
+  margin: 20px 0;
+  line-height: 140%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+ }
+
+
+ /*=========================
+Aside Styling
+===========================*/
+
+aside {
+  text-align: center;
+  padding: 20px;
+  flex: 10%;
+  max-height: 15vh;
+}
+
+.asideboxes {
+  display: flex;
+  justify-content:space-evenly;
+}
+
+/*=========================
+Footer Styling
+===========================*/
+
+footer {
+  background-color: gray;
+  padding: 4px 0;
+  border-top: 3px solid black;
+  margin-top: auto;
+ }
+
+ footer p {
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center; 
+}
